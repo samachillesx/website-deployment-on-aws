@@ -138,3 +138,25 @@ This project helped me develop practical experience with:
 * Working with `firewalld`
 * Troubleshooting Linux and Nginx issues
 * Deploying and updating a static website
+
+## Lessons Learned
+
+One of the biggest lessons from this project was that Linux distributions can differ significantly in their package management, firewall configuration, and filesystem conventions.
+
+Coming from Ubuntu, I initially tried to use `apt` and expected the Nginx web root to be `/var/www/`. On Amazon Linux 2023, I learned to work with `dnf`/`yum`, `firewalld`, and the Nginx web root at `/usr/share/nginx/html`.
+
+I also learned that SSH commands depend on the location of the private key file, so understanding the current working directory and using the correct path to the `.pem` file is important.
+
+## Future Improvements
+
+Potential improvements to this project include:
+
+* Configure HTTPS using SSL/TLS
+* Connect the deployment to a custom domain
+* Automate deployments with GitHub Actions
+* Add Nginx configuration for the website
+* Implement a more automated deployment process
+
+## Repository
+
+**GitHub:** `samachillesx/website-deployment-on-aws`
