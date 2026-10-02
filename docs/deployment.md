@@ -81,6 +81,8 @@ Check its status:
 sudo systemctl status nginx
 ```
 
+![Nginx Status](../screenshots/nginx-status.png)
+
 ## 5. Clone the Website Repository
 
 Move to the home directory:
@@ -139,6 +141,8 @@ Verify the files:
 ls -la /usr/share/nginx/html/
 ```
 
+![Terminal Deployment](../screenshots/terminal-deployment.png)
+
 ## 7. Configure Permissions
 
 Set Nginx as the owner:
@@ -193,6 +197,8 @@ http://YOUR_EC2_PUBLIC_IP
 ```
 
 The AWS Security Group must allow inbound HTTP traffic on port `80`.
+
+![Website Live](../screenshots/website-live.png)
 
 ## 11. Updating the Website
 
