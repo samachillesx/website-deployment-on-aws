@@ -30,6 +30,8 @@ For AWS EC2, inbound access is also controlled by the **EC2 Security Group**, so
 
 Do not assume that administration commands from one Linux distribution will be identical on another.
 
+![Firewall](../screenshots/firewalld.png)
+
 ---
 
 ## 2. Using the wrong package manager
@@ -109,6 +111,8 @@ ssh -i /path/to/keypem/your-key.pem ec2-user@YOUR_EC2_PUBLIC_IP
 ### Lesson
 
 The terminal's current working directory matters when using relative file paths.
+
+![SSH Connection](../screenshots/ssh-connection.png)
 
 ---
 
