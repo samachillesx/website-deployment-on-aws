@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-The following were required for this project:
+The following are required for this project:
 
 * AWS account
 * EC2 instance
@@ -32,6 +32,8 @@ Then connect to the instance:
 ```bash
 ssh -i your-key.pem ec2-user@YOUR_EC2_PUBLIC_IP
 ```
+
+![EC2 Instance]../screenshots/ec2-instance.png
 
 Amazon Linux commonly uses `ec2-user` as the default SSH user.
 
