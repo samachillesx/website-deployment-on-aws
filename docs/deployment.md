@@ -35,6 +35,8 @@ ssh -i your-key.pem ec2-user@YOUR_EC2_PUBLIC_IP
 
 ![EC2 Instance](../screenshots/ec2-instance.png)
 
+![SSH Connection](../screenshots/ssh-connection.png)
+
 Amazon Linux commonly uses `ec2-user` as the default SSH user.
 
 ## 2. Update Packages
