@@ -33,7 +33,7 @@ Then connect to the instance:
 ssh -i your-key.pem ec2-user@YOUR_EC2_PUBLIC_IP
 ```
 
-![EC2 Instance]../screenshots/ec2-instance.png
+![EC2 Instance](../screenshots/ec2-instance.png)
 
 Amazon Linux commonly uses `ec2-user` as the default SSH user.
 
